@@ -1,0 +1,11 @@
+package Search;
+
+public class VerifyURL {
+
+	public static void main(String[] args) {
+		Full_Test ft = new Full_Test();
+		ft.verifyLinkActive("www.google.com");
+	}
+	
+	
+}

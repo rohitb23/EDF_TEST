@@ -1,0 +1,19 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Welcome to main Class");
+		PezDispenser pz = new PezDispenser("RB");
+		System.out.println("Current Name:" + pz.getName());
+		//pz.name = "Updated";
+		System.out.println("New name: " + pz.getName());
+		String before = (pz.swapHead("MRB"));
+		String now = pz.getName();
+		System.out.printf("Before %s and after %s%n",before,now);
+		System.out.println(PezDispenser.MAX_PEZ);
+		
+		
+	}
+	
+}

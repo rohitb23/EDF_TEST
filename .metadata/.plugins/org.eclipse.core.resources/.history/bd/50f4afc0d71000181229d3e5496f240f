@@ -1,0 +1,20 @@
+
+public class Play {
+
+	public static void main(String[] args) {
+		
+		Game gm = new Game("MRB");
+		System.out.println(gm.guessAnswer());
+		System.out.println(gm.isCorrect());
+		gm.asGuess();
+		
+		
+		
+		String d = "Rohit Baweja";
+		char[] x = d.toCharArray();
+		for(char c : x) {
+			System.out.println(c);
+		}
+	}
+	
+}

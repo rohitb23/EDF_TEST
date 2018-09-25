@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Game {
+
+	public String answer;
+	String youranswer;
+	public Game(String answer) {
+		
+		this.answer = answer ;
+		
+	}
+	
+	public String guessAnswer() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Guess the answer");
+		 youranswer = scan.nextLine();
+		return youranswer;
+	}
+	
+	public char asGuess() {
+		Scanner scans = new Scanner(System.in);
+		String d = scans.nextLine();
+		char[] as = d.toCharArray();
+		char c = d.charAt(0);
+		System.out.println(as);
+		System.out.println(c);
+		
+	}
+	
+	
+	public boolean isCorrect() {
+		if(answer.equalsIgnoreCase(youranswer)) {
+			System.out.println("You Guessed it Right Hurray !!!");
+		} else {
+			System.out.println("oops that wasn't the right answer :( " +   
+		"the right answer was :" 
+					
+					+ answer);
+		}
+		return answer.equalsIgnoreCase(youranswer);
+		
+	}
+	
+	
+}

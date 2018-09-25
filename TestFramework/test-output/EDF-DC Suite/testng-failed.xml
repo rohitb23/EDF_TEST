@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EDF-DC Suite]">
+  <test thread-count="5" name="Any Name(failed)">
+    <groups>
+      <run>
+        <include name="ALL"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="EDF_DC.EdfAdd">
+        <methods>
+          <include name="Schema"/>
+          <include name="transform"/>
+          <include name="AddFormat"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="EndPoint"/>
+        </methods>
+      </class> <!-- EDF_DC.EdfAdd -->
+    </classes>
+  </test> <!-- Any Name(failed) -->
+</suite> <!-- Failed suite [EDF-DC Suite] -->

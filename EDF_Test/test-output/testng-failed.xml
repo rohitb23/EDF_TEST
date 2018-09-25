@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="EDF_DC.EdfAdd">
+        <methods>
+          <include name="Schema"/>
+          <include name="transform"/>
+          <include name="AddFormat"/>
+          <include name="beforeMethod"/>
+          <include name="Data_Asset_ADD"/>
+          <include name="afterMethod"/>
+          <include name="EndPoint"/>
+        </methods>
+      </class> <!-- EDF_DC.EdfAdd -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="id_data_asset_type" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="/html/body/main/div/div[2]/ul/li[8]"/>
+			<item value="id_data_asset_name"/>
+			<item value="//*[@id=&quot;id_data_asset_name&quot;]"/>
+			<item value="/html/body/header/nav/div[3]/div/a[4]"/>
+			<item value="sendkeys"/>
+			<item value="TestingDA"/>
+			<item value="End2EndDA"/>
+			<item value="Addformat"/>
+			<item value="endpoint"/>
+			<item value="driver.wait"/>
+			<item value="/html/body/main/div/div[2]/div[3]/div/table/tbody/tr/td[1]/a"/>
+			<item value="Data"/>
+			<item value="/html/body/main/div/div[2]/ul/li[3]"/>
+			<item value="&amp;gt;"/>
+			<item value="&amp;lt;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="&gt;"/>
+			<item value="&lt;"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="336" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="452" key="DIALOG_HEIGHT"/>
+		<item value="1248" key="DIALOG_X_ORIGIN"/>
+		<item value="193" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

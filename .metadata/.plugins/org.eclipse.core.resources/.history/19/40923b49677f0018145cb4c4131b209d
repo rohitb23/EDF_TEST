@@ -1,0 +1,44 @@
+package Search;
+
+import java.util.concurrent.TimeUnit;
+
+import org.apache.xerces.util.SynchronizedSymbolTable;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class EndtoEnd {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\a889346\\Desktop\\Sel\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+	//	driver.manage().window().maximize();
+		driver.get("https://dev.oneid.neustar:9011/edf/");
+		System.out.println("1");
+		driver.manage().timeouts().pageLoadTimeout(100,TimeUnit.SECONDS);
+		System.out.println("2");
+		
+		WebElement element = driver.findElement(By.xpath("/html/body/header/nav/div[3]/button"));
+		System.out.println("3");
+
+        Actions act = new Actions(driver);
+        act.moveToElement(element).build().perform();
+        driver.findElement(By.xpath("/html/body/header/nav/div[3]/div/a[4]")).click();
+		WebDriverWait wait = new WebDriverWait(driver,200);
+		//wait.until(ExpectedConditions.presenceOfElementLocated((By.xpath("/html/body/header/nav/div[2]/button"))));
+		//Select sel = new Select(driver.findElement(By.linkText("On-Boarding")));
+		//driver.findElement(By.xpath("/html/body/header/nav/div[3]/div/a[4]")).click();
+		System.out.println("Working on it");
+		
+		
+		
+	}
+	
+}

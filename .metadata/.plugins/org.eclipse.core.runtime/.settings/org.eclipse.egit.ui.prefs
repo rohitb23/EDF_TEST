@@ -1,0 +1,8 @@
+BranchProjectTracker__C\:\\Users\\a889346\\git23\\.git_Dev=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="Dev">\r\n<project>\\GitUp</project>\r\n<project>\\Learning</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\a889346\\git23\\.git_Staging=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="Staging">\r\n<project>\\GitUp</project>\r\n<project>\\Learning</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\a889346\\git23\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="master">\r\n<project>\\GitUp</project>\r\n<project>\\Learning</project>\r\n</projects>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Specific to dev&\#x0A;&\#x0A;Signed-off-by\: Rohit &lt;rbaweja2311@gmail.com&gt;</message>\r\n<message>New to Staging&\#x0A;&\#x0A;Signed-off-by\: Rohit &lt;rbaweja2311@gmail.com&gt;</message>\r\n<message>Test&\#x0A;&\#x0A;Signed-off-by\: Rohit &lt;rbaweja2311@gmail.com&gt;</message>\r\n<message>Commit</message>\r\n<message>Moving agaib&\#x0A;&\#x0A;Signed-off-by\: Rohit &lt;rbaweja2311@gmail.com&gt;</message>\r\n<message>Moving to GIT&\#x0A;&\#x0A;Signed-off-by\: Rohit &lt;rbaweja2311@gmail.com&gt;</message>\r\n</messages>
+eclipse.preferences.version=1
+resourcehistory_compare_mode=true
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

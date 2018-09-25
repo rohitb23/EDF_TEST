@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EDF-DC Suite" duration-ms="110622" started-at="2018-08-14T11:30:39Z" finished-at="2018-08-14T11:32:30Z">
+    <groups>
+      <group name="Validation">
+        <method signature="DCMonitoring.f()[pri:5, instance:EDF_DC.DCMonitoring@74650e52]" name="f" class="EDF_DC.DCMonitoring"/>
+      </group> <!-- Validation -->
+      <group name="Add">
+        <method signature="EdfAdd.AddFormat()[pri:3, instance:EDF_DC.EdfAdd@1786dec2]" name="AddFormat" class="EDF_DC.EdfAdd"/>
+        <method signature="EdfAdd.Data_Asset_ADD()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="Data_Asset_ADD" class="EDF_DC.EdfAdd"/>
+        <method signature="EdfAdd.EndPoint()[pri:4, instance:EDF_DC.EdfAdd@1786dec2]" name="EndPoint" class="EDF_DC.EdfAdd"/>
+        <method signature="EdfAdd.Schema()[pri:1, instance:EDF_DC.EdfAdd@1786dec2]" name="Schema" class="EDF_DC.EdfAdd"/>
+        <method signature="EdfAdd.transform()[pri:2, instance:EDF_DC.EdfAdd@1786dec2]" name="transform" class="EDF_DC.EdfAdd"/>
+      </group> <!-- Add -->
+    </groups>
+    <test name="Any Name" duration-ms="110622" started-at="2018-08-14T11:30:39Z" finished-at="2018-08-14T11:32:30Z">
+      <class name="EDF_DC.EdfAdd">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="beforeMethod" is-config="true" duration-ms="10121" started-at="2018-08-14T11:30:39Z" finished-at="2018-08-14T11:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Data_Asset_ADD()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="Data_Asset_ADD" duration-ms="12447" started-at="2018-08-14T11:30:50Z" finished-at="2018-08-14T11:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Data_Asset_ADD -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="afterMethod" is-config="true" duration-ms="159" started-at="2018-08-14T11:31:02Z" finished-at="2018-08-14T11:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="beforeMethod" is-config="true" duration-ms="9075" started-at="2018-08-14T11:31:02Z" finished-at="2018-08-14T11:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Schema()[pri:1, instance:EDF_DC.EdfAdd@1786dec2]" name="Schema" duration-ms="7951" started-at="2018-08-14T11:31:11Z" finished-at="2018-08-14T11:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Schema -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="afterMethod" is-config="true" duration-ms="2092" started-at="2018-08-14T11:31:19Z" finished-at="2018-08-14T11:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="beforeMethod" is-config="true" duration-ms="9383" started-at="2018-08-14T11:31:21Z" finished-at="2018-08-14T11:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="transform()[pri:2, instance:EDF_DC.EdfAdd@1786dec2]" name="transform" duration-ms="3185" started-at="2018-08-14T11:31:31Z" finished-at="2018-08-14T11:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transform -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="afterMethod" is-config="true" duration-ms="75" started-at="2018-08-14T11:31:34Z" finished-at="2018-08-14T11:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="beforeMethod" is-config="true" duration-ms="9282" started-at="2018-08-14T11:31:34Z" finished-at="2018-08-14T11:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddFormat()[pri:3, instance:EDF_DC.EdfAdd@1786dec2]" name="AddFormat" duration-ms="10646" started-at="2018-08-14T11:31:43Z" finished-at="2018-08-14T11:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddFormat -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="afterMethod" is-config="true" duration-ms="102" started-at="2018-08-14T11:31:54Z" finished-at="2018-08-14T11:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="beforeMethod" is-config="true" duration-ms="8921" started-at="2018-08-14T11:31:54Z" finished-at="2018-08-14T11:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="EndPoint()[pri:4, instance:EDF_DC.EdfAdd@1786dec2]" name="EndPoint" duration-ms="5619" started-at="2018-08-14T11:32:03Z" finished-at="2018-08-14T11:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndPoint -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:EDF_DC.EdfAdd@1786dec2]" name="afterMethod" is-config="true" duration-ms="81" started-at="2018-08-14T11:32:08Z" finished-at="2018-08-14T11:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- EDF_DC.EdfAdd -->
+      <class name="EDF_DC.DCMonitoring">
+        <test-method status="PASS" signature="Login()[pri:0, instance:EDF_DC.DCMonitoring@74650e52]" name="Login" is-config="true" duration-ms="10673" started-at="2018-08-14T11:32:09Z" finished-at="2018-08-14T11:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="f()[pri:5, instance:EDF_DC.DCMonitoring@74650e52]" name="f" duration-ms="10690" started-at="2018-08-14T11:32:19Z" finished-at="2018-08-14T11:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:EDF_DC.DCMonitoring@74650e52]" name="signOut" is-config="true" duration-ms="78" started-at="2018-08-14T11:32:30Z" finished-at="2018-08-14T11:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+      </class> <!-- EDF_DC.DCMonitoring -->
+    </test> <!-- Any Name -->
+  </suite> <!-- EDF-DC Suite -->
+</testng-results>

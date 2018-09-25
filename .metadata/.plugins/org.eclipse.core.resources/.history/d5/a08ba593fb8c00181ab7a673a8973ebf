@@ -1,0 +1,38 @@
+package PG_E2E;
+
+import org.openqa.*;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class EDF {
+
+ public  EDF(WebDriver driver) {
+	PageFactory.initElements(driver,this);
+}
+ 
+    @FindBy(xpath = "/html/body/header/nav/div[3]/button") 
+	public WebElement onBoarding;
+	
+	@FindBy(xpath = "/html/body/header/nav/div[3]/div/a[4]")
+	public WebElement DataAsset;
+	
+	
+	@FindBy(xpath = "/html/body/header/nav/div[3]/div/a[1]")
+	public WebElement providers;
+	
+	
+	
+	@FindBy(id = "id_provider_name")
+	public WebElement providername;
+	
+	@FindBy(id = "id_sf_account")
+	public WebElement sfaccount;
+	
+	@FindBy(xpath = "/html/body/main/div/input")
+	public WebElement Submit;
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+package Search;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Full_Test {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\a889346\\Desktop\\Sel\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.navigate().to("https://am-pp.oneid.neustar/neusso/XUI/#login/&goto=https://ig-pp.oneid.neustar:443/oneid/neusearch/&realm=/NeuXim");
+		
+	}
+	
+}

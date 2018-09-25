@@ -1,0 +1,31 @@
+
+public class PezDispenser {
+
+	final private String name ;
+	final static public int MAX_PEZ = 12;
+	private int pezCount ;
+	
+	public  PezDispenser(String name) {
+		this.name = name ;
+		pezCount = 0;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void fillDispenser() {
+		this.pezCount = MAX_PEZ;
+	}
+	
+	public int getPEZCOUNT() {
+		return pezCount;
+	}
+	
+	public String swapHead(String name) {
+		String orignal = this.name; 
+	//	this.name = name;
+		return orignal;
+	}
+	
+}

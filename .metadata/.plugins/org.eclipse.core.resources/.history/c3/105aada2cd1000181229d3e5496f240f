@@ -1,0 +1,20 @@
+
+public class PezDispenser {
+
+	final private String name ;
+	final public MAX_PEZ = 12;
+	public  PezDispenser(String name) {
+		this.name = name ;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public String swapHead(String name) {
+		String orignal = this.name; 
+	//	this.name = name;
+		return orignal;
+	}
+	
+}

@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Game {
+
+	public String answer;
+	
+	public String guessAnswer() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Guess the answer");
+		String youranswer = scan.nextLine();
+		return youranswer;
+	}
+	
+	
+}

@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Game {
+
+	public String answer;
+	String youranswer;
+	public Game(String answer) {
+		
+		this.answer = answer ;
+		
+	}
+	
+	public String guessAnswer() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Guess the answer");
+		 youranswer = scan.nextLine();
+		return youranswer;
+	}
+	
+	
+	public boolean isCorrect() {
+		return 
+	}
+	
+	
+}

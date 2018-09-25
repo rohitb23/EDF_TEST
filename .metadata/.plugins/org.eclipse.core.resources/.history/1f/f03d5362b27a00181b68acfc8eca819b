@@ -1,0 +1,39 @@
+package Search;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Full_Test {
+
+	public static void main(String[] args) throws x {
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\a889346\\Desktop\\Sel\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.navigate().to("https://am-pp.oneid.neustar/neusso/XUI/#login/&goto=https://ig-pp.oneid.neustar:443/oneid/neusearch/&realm=/NeuXim");
+		driver.wait(10000);
+/*		driver.manage().timeouts().pageLoadTimeout(100,TimeUnit.SECONDS);
+		WebDriverWait wait = new WebDriverWait(driver,10);
+		Boolean d = wait.until(ExpectedConditions.elementToBeSelected(By.name("callback_0")));*/
+		driver.findElement(By.name("callback_0")).sendKeys("shubham");
+		driver.findElement(By.id("idToken2")).sendKeys("Shubham1");
+		driver.findElement(By.id("loginButton_0")).click();
+		System.out.println("We are In");
+		try {
+			driver.wait(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+}

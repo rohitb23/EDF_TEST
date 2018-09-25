@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;EDF_Test/src/EDF_DC/testng.xml&apos; to &apos;EDF.xml&apos;" description="Rename resource &apos;testng.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/EDF_DC/testng.xml" name="EDF.xml" stamp="1534757729265" updateReferences="true"/>
+</session>

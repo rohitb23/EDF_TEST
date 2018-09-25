@@ -1,0 +1,20 @@
+<suite name="EDF-DC Suite">
+ <test name="Any Name" >
+<groups>
+        <define name = "ALL">
+        <include name = "Add"/>
+        <include name = "Validation"/>
+        
+        </define>
+<run>
+      <include name = "ALL"/>
+</run>
+</groups>
+ <classes> 
+ <class name="EDF_DC.EdfAdd" />
+
+ </classes>
+
+ </test>
+
+ </suite>
